@@ -14,7 +14,7 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
 }
 
 // Merge rule
-GameManager.prototype.tilesRule = ["竹蜻蜓", "风筝", "直升机", "高空气球", "国际空间站", "同步卫星", "玉兔号", "好奇号", "嫦娥2号", "卡西尼号", "旅行者号", "企业号"];
+GameManager.prototype.tilesRule = ["竹蜻蜓", "风筝", "直升机", "高空气球", "国际空间站", "同步卫星", "玉兔号", "嫦娥2号", "好奇号", "卡西尼号", "旅行者号", "企业号"];
 
 // Restart the game
 GameManager.prototype.restart = function () {
